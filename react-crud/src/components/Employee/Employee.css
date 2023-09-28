@@ -1,0 +1,22 @@
+/* Estilo para cada empleado */
+.employee {
+    display: flex; /* Hace que los elementos hijos se muestren en línea */
+    align-items: center; /* Centra verticalmente los elementos hijos */
+    gap: 10px; /* Espacio entre elementos dentro del empleado */
+  }
+  
+  .employee img {
+    max-width: 100px; /* Ajusta el ancho máximo de la imagen según tus necesidades */
+  }
+  
+  .employee-details {
+    flex-grow: 1; /* Hace que los detalles ocupen todo el espacio disponible */
+    display: flex; /* Hace que los elementos hijos se muestren en línea */
+    align-items: center; /* Centra horizontalmente los detalles */
+    gap: 10px;
+  }
+  
+  .employee-details p {
+    margin: 0; /* Elimina los márgenes predeterminados de los párrafos */
+  }
+  

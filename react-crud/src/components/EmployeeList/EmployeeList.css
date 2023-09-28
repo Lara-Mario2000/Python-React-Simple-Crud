@@ -1,0 +1,6 @@
+.employee-list {
+  display: flex;
+  flex-direction: column; /* Cambiamos la dirección a columna */
+  gap: 20px; /* Espacio entre empleados */
+  align-items: center; /* Centra horizontalmente los elementos */
+}
