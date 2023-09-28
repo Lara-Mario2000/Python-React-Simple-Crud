@@ -1,5 +1,5 @@
 class Config:
-    DATABASE_URL = 'postgres://mario:hfsjikArkUFr9bG0yTfLtJtAMByT1ogN@dpg-ck902hk7m7is73bse410-a.oregon-postgres.render.com/simple_crud_i2wl'
+    DATABASE_URL = 'DATABASE_URL'
 
 class DevelopmentConfig():
     DEBUG = True
